@@ -44,6 +44,7 @@
 		CB9A363A2B7169180033BBF0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = a/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		CB9A363C2B71692A0033BBF0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = a/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		CB9A36402B7169780033BBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9A36422B7171500033BBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 				CB5DCB0F2B643A7B007D06D7 /* SceneDelegate.swift */,
 				CB5DCB112B643A7B007D06D7 /* ViewController.swift */,
 				CB5DCB0D2B643A7B007D06D7 /* AppDelegate.swift */,
+				CB9A36422B7171500033BBF0 /* Info.plist */,
 				CB9A36402B7169780033BBF0 /* Assets.xcassets */,
 			);
 			path = a;
@@ -400,6 +402,7 @@
 				DEVELOPMENT_TEAM = 5AFVTFTHHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = a/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Info;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -428,6 +431,7 @@
 				DEVELOPMENT_TEAM = 5AFVTFTHHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = a/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Info;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
